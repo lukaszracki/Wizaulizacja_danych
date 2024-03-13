@@ -42,11 +42,22 @@ def wektor():
     print('Wynik dodawania wierszy macierzy: ')
     print(suma_wierszy)
 
+
+def zad4():
+    a = int(input('Podaj liczbe a: '))
+    b = int(input('Podaj liczbe b: '))
+    napis = str(a**b)
+    print(f'Liczba {a} podniesiona do potegi {b} wynosi: {a**b}')
+    print(f'Dlugosc wyniku {a**b} to {len(str(a**b))}')
+    print(f'Ostatnia liczba wyniku {a**b} to {napis[-1]}')
+
+
 def main():
     # zad1()
     # zad2()
     # zad3()
-    wektor()
+    # wektor()
+    zad4()
 
 
 main()
